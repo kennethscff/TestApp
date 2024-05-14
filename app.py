@@ -8,7 +8,7 @@ def home():
 
 @app.route('/hello/<name>')
 def hello(name):
-    return f"Hello, {name}!"
+    return f"Hello Hi, {name}!"
 
 @app.route('/sum', methods=['POST'])
 def sum_numbers():
